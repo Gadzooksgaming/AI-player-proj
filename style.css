@@ -1,0 +1,68 @@
+body {
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: center;
+    background-attachment:fixed ;
+  }
+  
+
+
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    color: b;
+}
+
+.note{
+    font-size: 15px;
+    color: color-mix(in srgb, rgb(255, 255, 255) 25%, rgb(255, 0, 0) 50%);
+}
+
+body{
+    background-size: fit;
+    
+}
+
+.speed_disk{
+    float:left;
+}
+
+#speed_img{
+   width:200px;
+   border-radius: 100px;
+   
+}
+#spe{
+    font-size: 23px;
+    margin: 15px;
+    background-color: beige;
+    color:red;
+}
+
+
+.volume_disk{
+    float:right;
+}
+
+#volume_img{
+   width:200px;
+   border-radius: 100px;
+   
+}
+#pro{
+    font-size: 23px;
+    margin: 15px;
+    background-color: beige;
+    
+}
+
+.play_button{
+    width: 130px;
+    font-size: 25px;
+    background: none;
+    border: none;
+    
+    
+}

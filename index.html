@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body background="_19331119-5123-4d0c-9985-a83d4914186d.jfif">
+<center>
+  	<h3 class="btn btn-info heading" >AI DJ Song player
+	    <br>
+	    <span class="note">NOTE - Show your left hand to play SPECIALZ and use your right hand wrist to play THE PRODIGAL.</span>
+  	</h3>
+    <div class="speed_disk">
+      <img src="Opera Snapshot_2024-01-02_143726_www.youtube.com" id="speed_img">
+      <br>
+      <h3 class="btn btn-danger" id="spe">SPECIALZ</h3>
+    </div>
+
+    <div class="volume_disk">
+      <img src="Opera Snapshot_2024-01-02_144041_www.youtube.com.png" id="volume_img">
+      <br>
+      <h3 class="btn btn-danger" id="pro">THE PRODIGAL</h3>
+    </div>
+
+    <button class="btn btn-success play_button" onclick="play()">⏯️</button>
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
